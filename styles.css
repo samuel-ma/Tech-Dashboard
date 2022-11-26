@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 
 :root {
     --primary: #157EFB;
@@ -18,7 +18,7 @@ body{
     padding-top: 40px;
     margin: 0;
     background-color: var(--background-color);
-    font-family: "Poppins";
+    font-family: "Inter";
     height: 3000px;
 }
 
@@ -72,6 +72,11 @@ body{
     margin-right: 40px;
 }
 
+.navLinks:hover{
+    cursor: pointer;
+    border-bottom: 1px solid var(--primary);
+}
+
 .logo{
     width: 150.72px;
     height: 52px;
@@ -86,6 +91,113 @@ body{
 .right-header{
     display: flex;
     align-items: center;
+}
+
+.start{
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.hero-txt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+#hero-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pen{
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+.all{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.all2{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.unify{
+    text-align: center;
+    color: var(--lines);
+    font-size: smaller;
+}
+
+.dash-txt{
+    margin-top: 20px;
+}
+
+.only-input{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgba(102, 102, 102, 0.274);
+    border-radius: 30px;
+    padding: 10px;
+    width: 500px;
+    background-color: white;
+}
+
+.letter{
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    margin-left: 10px;
+}
+
+.input-val{
+    display: flex;
+    align-items: center;
+}
+
+.input{
+    border: none;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+#dashboard-pic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.left{
+    position: absolute;
+    left: 0;
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+
+}
+
+.right{
+    position: absolute;
+    right: 0;
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
 }
 
 
